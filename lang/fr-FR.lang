@@ -1,0 +1,133 @@
+{
+    "menu" : {
+        "file" : {
+            "." : "Fichier",
+            "new" : "Nouveau",
+            "open" : "Ouvrir",
+            "save" : "Enregistrer",
+            "saveas" : "Enregistrer Sous",
+            "exit" : "Quiter"
+        },
+        "run": {
+            "." : "Exécuter",
+            "run" : "Exécuter",
+            "stop" : "Arréter",
+            "loop" : "Boucle"
+        },
+        "lang" : "Langue",
+        "keyboard" : {
+            "." : "Clavier",
+            "import" : "Importer"
+        },
+        "help" : {
+            "." : "Aide",
+            "docs" : "Documentation",
+            "about" : "À Propos..."
+        }
+    },
+    "macro": {
+        "button":{
+            "run" : "Exécuter",
+            "stop" : "Arréter"
+        }
+    },
+    "option" : {
+        "empty" : {
+            "title" : "Pas séléctionné",
+            "message" : {
+                "title" : "Rien a afficher ici",
+                "subtitle" : "Selectionnez quelque chose."
+            }
+        },
+        "running" : {
+            "title" : "En cours d'exécution",
+            "message" : {
+                "title" : "La macro s'exécute",
+                "subtitle" : "Arrétez l'exécution pour éditer."
+            }
+        },
+        "edit": {
+            "multiple": {
+                "title" : "Éditer les actions"
+            },
+            "single": {
+                "title" : "Modifier l'action '{name}' pour: '{key}'"
+            }
+        },
+        "add" : {
+            "title" : "Ajouter une action pour '{key}'",
+            "default" : "Touche Appuyée"
+        },
+        "labels" : {
+            "delay": "Délai:",
+            "index": "Index:",
+            "name" : "Nom:"
+        },
+        "buttons": {
+            "apply": "Appliquer",
+            "delete" : "Supprimer",
+            "add" : "Ajouter"
+        }
+    },
+    "table":{
+        "name": "Nom",
+        "key": "Touche",
+        "delay" : "Délai",
+        "index" : "Index"
+    },
+    "actions": {
+        "idle" : "En attente",
+        "running" : "En cours d'exécution",
+        "editing" : "En cours d'édition"
+    },
+    "ask": {
+        "dangerous_macro": {
+            "title" : "Macro dangeureuse!",
+            "message" : "Vous êtes sur le point d'exécuter une macro très rapide, ce qui pourrait entraîner des problèmes.\n Confirmer ?"
+        },
+        "replace" : {
+            "title" : "Remplacer le fichier actuel ?",
+            "message" : "Vous êtes sur le point de supprimer tout votre travail non enregistré.\n Confirmer ?"
+        },
+        "delete" : {
+            "title" : "Tout Supprimer ?",
+            "message" : "Vous êtes sur le point de supprimer tout votre travail non enregistré.\n Confirmer ?"
+        }
+    },
+    "messages":{
+        "error": {
+            "layout_not_found" : {
+                "title" : "Fichier d'agencement introuvable",
+                "message" : "Le fichier d'agencement '{layout_name}.json' est introuvable."
+            },
+            "invalid_layout" : {
+                "title" : "Fichier d'agencement invalide",
+                "message" : "Le fichier '{path}' n'est pas un ficher d'agencement valide."
+            },
+            "unicode" : {
+                "title" : "Erreur lors du décodage JSON",
+                "message" : "Une erreur s'est produite lors du décodage du fichier."
+            },
+            "invalid_file": {
+                "title" : "Fichier invalide",
+                "message" : "Le fichier '{path}' n'est pas un fichier 'akd'."
+            }
+        },
+        "info": {
+            "layout_imported" : {
+                "title" : "Fait",
+                "message" : "Tout les fichier d'agencement ont été importé"
+            }
+        },
+        "warn" : {
+            "layout_not_found" : {
+                "title" : "L'importation de certains fichiers a échoué.",
+                "message" : "Impossible d'importer :\n {files}"
+            },
+            "int_number" : {
+                "title" : "Entier requis",
+                "message" : "La valeur de l'entrée '{entry}' doit être un nombre entier."
+            }
+        }
+    }
+}

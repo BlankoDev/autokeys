@@ -1,0 +1,137 @@
+{
+    "menu" : {
+        "file" : {
+            "." : "File",
+            "new" : "New",
+            "open" : "Open",
+            "save" : "Save",
+            "saveas" : "Save As",
+            "exit" : "Exit"
+        },
+        "run": {
+            "." : "Run",
+            "run" : "Run",
+            "stop" : "Stop",
+            "loop" : "Loop"
+        },
+        "lang" : "Lang",
+        "keyboard" : {
+            "." : "Keyboard",
+            "import" : "Import"
+        },
+        "help" : {
+            "." : "Help",
+            "docs" : "Docs",
+            "about" : "About..."
+        }
+    },
+    "macro": {
+        "button":{
+            "run" : "Run",
+            "stop" : "Stop"
+        }
+    },
+    "option" : {
+        "empty" : {
+            "title" : "Not selected",
+            "message" : {
+                "title" : "Nothing to show here",
+                "subtitle" : "Select somthing to work with"
+            }
+        },
+        "running" : {
+            "title" : "Running",
+            "message" : {
+                "title" : "The macro is running",
+                "subtitle" : "Stop the execution to edit anything."
+            }
+        },
+        "edit": {
+            "multiple": {
+                "title" : "Edit actions"
+            },
+            "single": {
+                "title" : "Edit action '{name}' for: '{key}'"
+            }
+        },
+        "add" : {
+            "title" : "Add action for '{key}'",
+            "default" : "Press Key"
+        },
+        "labels" : {
+            "delay": "Delay:",
+            "index": "Index:",
+            "name" : "Name:"
+        },
+        "buttons": {
+            "apply": "Apply",
+            "delete" : "Delete",
+            "add" : "Add"
+        }
+    },
+    "table":{
+        "name": "Name",
+        "key": "Key",
+        "delay" : "Delay",
+        "index" : "Index"
+    },
+    "actions": {
+        "idle" : "Idle",
+        "running" : "Running",
+        "editing" : "Editing"
+    },
+    "ask": {
+        "dangerous_macro": {
+            "title" : "Dangerous macro !",
+            "message" : "You are about to run a really fast macro, that may break something.\n Confirm ?"
+        },
+        "replace" : {
+            "title" : "Replace current file ?",
+            "message" : "You are about to delete all your unsaved work.\n Confirm ?"
+        },
+        "delete" : {
+            "title" : "Delete all ?",
+            "message" : "You are about to delete all your unsaved work.\n Confirm ?"
+        },
+        "quit" : {
+            "title" : "Delete unsaved work ?",
+            "message" : "There is unsaved work. do you want to save it before closing ?"
+        }
+    },
+    "messages":{
+        "error": {
+            "layout_not_found" : {
+                "title" : "Layout file not found",
+                "message" : "Layout file '{layout_name}.json' not found."
+            },
+            "invalid_layout" : {
+                "title" : "Invalid layout file",
+                "message" : "Layout file '{path}' is not a valid layout."
+            },
+            "unicode" : {
+                "title" : "Error while decoding json",
+                "message" : "An error ocurred while decoding the file."
+            },
+            "invalid_file": {
+                "title" : "Invalid file",
+                "message" : "The file '{path}' is not a 'akd' file."
+            }
+        },
+        "info": {
+            "layout_imported" : {
+                "title" : "Done",
+                "message" : "All layout has been imported."
+            }
+        },
+        "warn" : {
+            "layout_not_found" : {
+                "title" : "Somme files failed to import",
+                "message" : "Can't import:\n {files}"
+            },
+            "int_number" : {
+                "title" : "Integer required",
+                "message" : "The entry '{entry}' needs an integer number as value."
+            }
+        }
+    }
+}
