@@ -122,6 +122,7 @@ class App:
         self.root.geometry("1280x720")
         self.root.resizable(False, False)
         self.root.protocol("WM_DELETE_WINDOW", self.quit)
+        self.root.iconbitmap('icon.ico')
         self.update_title(self.lang["actions.idle"])
         self._bind_shortcuts()
 
@@ -159,6 +160,8 @@ class App:
         self.show_option(self._create_empty_option)
 
         self.action_list.bind("<<TreeviewSelect>>", self._selection_handle)
+
+        if len(self.argv) > 1: self.open(path=self.argv[1])
     
     def _bind_shortcuts(self):
         self.root.bind('<Control-Shift-S>', lambda _: self.save_as())
@@ -230,6 +233,7 @@ class App:
         self.backend.clear_keys()
         for _id in self.action_list.get_children():
             name, delay, key = self.action_list.item(_id)['values']
+            key = str(key)
             key_value = key.removeprefix('Key.')
             try: key_value = KeyCode[key_value]
             except KeyError: key_value = key
@@ -238,7 +242,7 @@ class App:
     def _action_button_command(self):
         if self.backend.running: self.stop_macro()
         else: self.run_macro()
-    
+
     def _macro_run_feedback(self, key: Key):
         if self._first_feedback is None: self._first_feedback = True
         if key.delay > 10 or self._first_feedback:self.action_list.selection_set(key.id)
@@ -608,7 +612,7 @@ class App:
         if not delay.get().isdigit(): return messagebox.showwarning(self.lang["messages.warn.int_number.title"], self.lang["messages.warn.int_number.message"].format(entry=self.lang["table.delay"]))
         if not index.get().isdigit(): return messagebox.showwarning(self.lang["messages.warn.int_number.title"], self.lang["messages.warn.int_number.message"].format(entry=self.lang["table.index"]))
         self.saved = False
-        item = self.action_list.insert('', index.get(), values=(name.get(), delay.get(), key))
+        item = self.action_list.insert('', index.get(), values=(name.get(), delay.get(), str(key)))
         self.action_list.selection_set(item)
 
     def _edit_multiple_action_command(self, delay: ttk.Spinbox, items):
