@@ -1,0 +1,137 @@
+{
+    "menu" : {
+        "file" : {
+            "." : "Arquivo",
+            "new" : "Novo",
+            "open" : "Abrir",
+            "save" : "Salvar",
+            "saveas" : "Salvar como",
+            "exit" : "Sair"
+        },
+        "run": {
+            "." : "Executar",
+            "run" : "Executar",
+            "stop" : "Parar",
+            "loop" : "Repetir"
+        },
+        "lang" : "Idioma",
+        "keyboard" : {
+            "." : "Teclado",
+            "import" : "Importar"
+        },
+        "help" : {
+            "." : "Ajuda",
+            "docs" : "Documentação",
+            "about" : "Sobre..."
+        }
+    },
+    "macro": {
+        "button":{
+            "run" : "Executar",
+            "stop" : "Parar"
+        }
+    },
+    "option" : {
+        "empty" : {
+            "title" : "Nada selecionado",
+            "message" : {
+                "title" : "Nada para mostrar aqui",
+                "subtitle" : "Selecione algo para trabalhar"
+            }
+        },
+        "running" : {
+            "title" : "Em execução",
+            "message" : {
+                "title" : "O macro está em execução",
+                "subtitle" : "Pare a execução para editar algo."
+            }
+        },
+        "edit": {
+            "multiple": {
+                "title" : "Editar ações"
+            },
+            "single": {
+                "title" : "Editar ação '{name}' para: '{key}'"
+            }
+        },
+        "add" : {
+            "title" : "Adicionar ação para '{key}'",
+            "default" : "Pressionar tecla"
+        },
+        "labels" : {
+            "delay": "Atraso:",
+            "index": "Índice:",
+            "name" : "Nome:"
+        },
+        "buttons": {
+            "apply": "Aplicar",
+            "delete" : "Excluir",
+            "add" : "Adicionar"
+        }
+    },
+    "table":{
+        "name": "Nome",
+        "key": "Tecla",
+        "delay" : "Atraso",
+        "index" : "Índice"
+    },
+    "actions": {
+        "idle" : "Pronto",
+        "running" : "Executando",
+        "editing" : "Editando"
+    },
+    "ask": {
+        "dangerous_macro": {
+            "title" : "Macro perigoso!",
+            "message" : "Você está prestes a executar um macro muito rápido que pode causar problemas.\n Confirmar?"
+        },
+        "replace" : {
+            "title" : "Substituir arquivo atual?",
+            "message" : "Você está prestes a excluir todo o trabalho não salvo.\n Confirmar?"
+        },
+        "delete" : {
+            "title" : "Excluir tudo?",
+            "message" : "Você está prestes a excluir todo o trabalho não salvo.\n Confirmar?"
+        },
+        "quit" : {
+            "title" : "Descartar trabalho não salvo?",
+            "message" : "Há trabalho não salvo. Deseja salvar antes de fechar?"
+        }
+    },
+    "messages":{
+        "error": {
+            "layout_not_found" : {
+                "title" : "Arquivo de layout não encontrado",
+                "message" : "Arquivo de layout '{layout_name}.json' não encontrado."
+            },
+            "invalid_layout" : {
+                "title" : "Arquivo de layout inválido",
+                "message" : "O arquivo de layout '{path}' não é um layout válido."
+            },
+            "unicode" : {
+                "title" : "Erro ao decodificar JSON",
+                "message" : "Ocorreu um erro ao decodificar o arquivo."
+            },
+            "invalid_file": {
+                "title" : "Arquivo inválido",
+                "message" : "O arquivo '{path}' não é um arquivo 'akd'."
+            }
+        },
+        "info": {
+            "layout_imported" : {
+                "title" : "Concluído",
+                "message" : "Todo o layout foi importado."
+            }
+        },
+        "warn" : {
+            "layout_not_found" : {
+                "title" : "Alguns arquivos não puderam ser importados",
+                "message" : "Não foi possível importar:\n {files}"
+            },
+            "int_number" : {
+                "title" : "Número inteiro necessário",
+                "message" : "A entrada '{entry}' precisa de um número inteiro como valor."
+            }
+        }
+    }
+}

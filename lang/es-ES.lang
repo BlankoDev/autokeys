@@ -1,0 +1,137 @@
+{
+    "menu" : {
+        "file" : {
+            "." : "Archivo",
+            "new" : "Nuevo",
+            "open" : "Abrir",
+            "save" : "Guardar",
+            "saveas" : "Guardar como",
+            "exit" : "Salir"
+        },
+        "run": {
+            "." : "Ejecutar",
+            "run" : "Ejecutar",
+            "stop" : "Detener",
+            "loop" : "Repetir"
+        },
+        "lang" : "Idioma",
+        "keyboard" : {
+            "." : "Teclado",
+            "import" : "Importar"
+        },
+        "help" : {
+            "." : "Ayuda",
+            "docs" : "Documentación",
+            "about" : "Acerca de..."
+        }
+    },
+    "macro": {
+        "button":{
+            "run" : "Ejecutar",
+            "stop" : "Detener"
+        }
+    },
+    "option" : {
+        "empty" : {
+            "title" : "No seleccionado",
+            "message" : {
+                "title" : "Nada que mostrar aquí",
+                "subtitle" : "Selecciona algo para trabajar"
+            }
+        },
+        "running" : {
+            "title" : "Ejecutando",
+            "message" : {
+                "title" : "El macro se está ejecutando",
+                "subtitle" : "Detén la ejecución para editar algo."
+            }
+        },
+        "edit": {
+            "multiple": {
+                "title" : "Editar acciones"
+            },
+            "single": {
+                "title" : "Editar acción '{name}' para: '{key}'"
+            }
+        },
+        "add" : {
+            "title" : "Añadir acción para '{key}'",
+            "default" : "Pulsar tecla"
+        },
+        "labels" : {
+            "delay": "Retardo:",
+            "index": "Índice:",
+            "name" : "Nombre:"
+        },
+        "buttons": {
+            "apply": "Aplicar",
+            "delete" : "Eliminar",
+            "add" : "Añadir"
+        }
+    },
+    "table":{
+        "name": "Nombre",
+        "key": "Tecla",
+        "delay" : "Retardo",
+        "index" : "Índice"
+    },
+    "actions": {
+        "idle" : "Inactivo",
+        "running" : "Ejecutando",
+        "editing" : "Editando"
+    },
+    "ask": {
+        "dangerous_macro": {
+            "title" : "¡Macro peligroso!",
+            "message" : "Estás a punto de ejecutar un macro muy rápido que podría causar problemas.\n ¿Confirmar?"
+        },
+        "replace" : {
+            "title" : "¿Reemplazar archivo actual?",
+            "message" : "Estás a punto de eliminar todo tu trabajo no guardado.\n ¿Confirmar?"
+        },
+        "delete" : {
+            "title" : "¿Eliminar todo?",
+            "message" : "Estás a punto de eliminar todo tu trabajo no guardado.\n ¿Confirmar?"
+        },
+        "quit" : {
+            "title" : "¿Descartar trabajo no guardado?",
+            "message" : "Hay trabajo no guardado. ¿Quieres guardarlo antes de cerrar?"
+        }
+    },
+    "messages":{
+        "error": {
+            "layout_not_found" : {
+                "title" : "Archivo de diseño no encontrado",
+                "message" : "Archivo de diseño '{layout_name}.json' no encontrado."
+            },
+            "invalid_layout" : {
+                "title" : "Archivo de diseño inválido",
+                "message" : "El archivo de diseño '{path}' no es un diseño válido."
+            },
+            "unicode" : {
+                "title" : "Error al decodificar JSON",
+                "message" : "Ocurrió un error al decodificar el archivo."
+            },
+            "invalid_file": {
+                "title" : "Archivo inválido",
+                "message" : "El archivo '{path}' no es un archivo 'akd'."
+            }
+        },
+        "info": {
+            "layout_imported" : {
+                "title" : "Completado",
+                "message" : "Todo el diseño ha sido importado."
+            }
+        },
+        "warn" : {
+            "layout_not_found" : {
+                "title" : "Algunos archivos no pudieron importarse",
+                "message" : "No se pudo importar:\n {files}"
+            },
+            "int_number" : {
+                "title" : "Número entero requerido",
+                "message" : "La entrada '{entry}' necesita un número entero como valor."
+            }
+        }
+    }
+}

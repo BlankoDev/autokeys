@@ -1,0 +1,137 @@
+{
+    "menu" : {
+        "file" : {
+            "." : "Datei",
+            "new" : "Neu",
+            "open" : "Öffnen",
+            "save" : "Speichern",
+            "saveas" : "Speichern unter",
+            "exit" : "Beenden"
+        },
+        "run": {
+            "." : "Ausführen",
+            "run" : "Ausführen",
+            "stop" : "Stopp",
+            "loop" : "Wiederholen"
+        },
+        "lang" : "Sprache",
+        "keyboard" : {
+            "." : "Tastatur",
+            "import" : "Importieren"
+        },
+        "help" : {
+            "." : "Hilfe",
+            "docs" : "Dokumentation",
+            "about" : "Über..."
+        }
+    },
+    "macro": {
+        "button":{
+            "run" : "Ausführen",
+            "stop" : "Stopp"
+        }
+    },
+    "option" : {
+        "empty" : {
+            "title" : "Nicht ausgewählt",
+            "message" : {
+                "title" : "Nichts anzuzeigen",
+                "subtitle" : "Wählen Sie etwas zum Bearbeiten aus"
+            }
+        },
+        "running" : {
+            "title" : "Wird ausgeführt",
+            "message" : {
+                "title" : "Das Makro wird ausgeführt",
+                "subtitle" : "Stoppen Sie die Ausführung, um etwas zu bearbeiten."
+            }
+        },
+        "edit": {
+            "multiple": {
+                "title" : "Aktionen bearbeiten"
+            },
+            "single": {
+                "title" : "Aktion '{name}' bearbeiten für: '{key}'"
+            }
+        },
+        "add" : {
+            "title" : "Aktion hinzufügen für '{key}'",
+            "default" : "Taste drücken"
+        },
+        "labels" : {
+            "delay": "Verzögerung:",
+            "index": "Index:",
+            "name" : "Name:"
+        },
+        "buttons": {
+            "apply": "Übernehmen",
+            "delete" : "Löschen",
+            "add" : "Hinzufügen"
+        }
+    },
+    "table":{
+        "name": "Name",
+        "key": "Taste",
+        "delay" : "Verzögerung",
+        "index" : "Index"
+    },
+    "actions": {
+        "idle" : "Bereit",
+        "running" : "Läuft",
+        "editing" : "Bearbeitung"
+    },
+    "ask": {
+        "dangerous_macro": {
+            "title" : "Gefährliches Makro!",
+            "message" : "Sie sind dabei, ein sehr schnelles Makro auszuführen, das etwas beschädigen könnte.\n Bestätigen?"
+        },
+        "replace" : {
+            "title" : "Aktuelle Datei ersetzen?",
+            "message" : "Sie sind dabei, alle nicht gespeicherten Arbeiten zu löschen.\n Bestätigen?"
+        },
+        "delete" : {
+            "title" : "Alles löschen?",
+            "message" : "Sie sind dabei, alle nicht gespeicherten Arbeiten zu löschen.\n Bestätigen?"
+        },
+        "quit" : {
+            "title" : "Nicht gespeicherte Arbeit verwerfen?",
+            "message" : "Es gibt nicht gespeicherte Arbeit. Möchten Sie vor dem Schließen speichern?"
+        }
+    },
+    "messages":{
+        "error": {
+            "layout_not_found" : {
+                "title" : "Layout-Datei nicht gefunden",
+                "message" : "Layout-Datei '{layout_name}.json' nicht gefunden."
+            },
+            "invalid_layout" : {
+                "title" : "Ungültige Layout-Datei",
+                "message" : "Layout-Datei '{path}' ist kein gültiges Layout."
+            },
+            "unicode" : {
+                "title" : "Fehler beim Dekodieren der JSON-Datei",
+                "message" : "Beim Dekodieren der Datei ist ein Fehler aufgetreten."
+            },
+            "invalid_file": {
+                "title" : "Ungültige Datei",
+                "message" : "Die Datei '{path}' ist keine 'akd'-Datei."
+            }
+        },
+        "info": {
+            "layout_imported" : {
+                "title" : "Fertig",
+                "message" : "Das gesamte Layout wurde importiert."
+            }
+        },
+        "warn" : {
+            "layout_not_found" : {
+                "title" : "Einige Dateien konnten nicht importiert werden",
+                "message" : "Kann nicht importieren:\n {files}"
+            },
+            "int_number" : {
+                "title" : "Ganzzahl erforderlich",
+                "message" : "Der Eintrag '{entry}' benötigt eine ganze Zahl als Wert."
+            }
+        }
+    }
+}

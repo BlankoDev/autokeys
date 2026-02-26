@@ -1,0 +1,137 @@
+{
+    "menu" : {
+        "file" : {
+            "." : "File",
+            "new" : "Nuovo",
+            "open" : "Apri",
+            "save" : "Salva",
+            "saveas" : "Salva con nome",
+            "exit" : "Esci"
+        },
+        "run": {
+            "." : "Esegui",
+            "run" : "Esegui",
+            "stop" : "Ferma",
+            "loop" : "Ripeti"
+        },
+        "lang" : "Lingua",
+        "keyboard" : {
+            "." : "Tastiera",
+            "import" : "Importa"
+        },
+        "help" : {
+            "." : "Aiuto",
+            "docs" : "Documentazione",
+            "about" : "Informazioni..."
+        }
+    },
+    "macro": {
+        "button":{
+            "run" : "Esegui",
+            "stop" : "Ferma"
+        }
+    },
+    "option" : {
+        "empty" : {
+            "title" : "Non selezionato",
+            "message" : {
+                "title" : "Niente da mostrare",
+                "subtitle" : "Seleziona qualcosa su cui lavorare"
+            }
+        },
+        "running" : {
+            "title" : "In esecuzione",
+            "message" : {
+                "title" : "Il macro è in esecuzione",
+                "subtitle" : "Ferma l'esecuzione per modificare qualcosa."
+            }
+        },
+        "edit": {
+            "multiple": {
+                "title" : "Modifica azioni"
+            },
+            "single": {
+                "title" : "Modifica azione '{name}' per: '{key}'"
+            }
+        },
+        "add" : {
+            "title" : "Aggiungi azione per '{key}'",
+            "default" : "Premi Tasto"
+        },
+        "labels" : {
+            "delay": "Ritardo:",
+            "index": "Indice:",
+            "name" : "Nome:"
+        },
+        "buttons": {
+            "apply": "Applica",
+            "delete" : "Elimina",
+            "add" : "Aggiungi"
+        }
+    },
+    "table":{
+        "name": "Nome",
+        "key": "Tasto",
+        "delay" : "Ritardo",
+        "index" : "Indice"
+    },
+    "actions": {
+        "idle" : "Inattivo",
+        "running" : "In esecuzione",
+        "editing" : "Modifica"
+    },
+    "ask": {
+        "dangerous_macro": {
+            "title" : "Macro pericoloso!",
+            "message" : "Stai per eseguire un macro molto veloce che potrebbe causare danni.\n Confermi?"
+        },
+        "replace" : {
+            "title" : "Sostituire il file corrente?",
+            "message" : "Stai per eliminare tutto il lavoro non salvato.\n Confermi?"
+        },
+        "delete" : {
+            "title" : "Eliminare tutto?",
+            "message" : "Stai per eliminare tutto il lavoro non salvato.\n Confermi?"
+        },
+        "quit" : {
+            "title" : "Eliminare lavoro non salvato?",
+            "message" : "C'è del lavoro non salvato. Vuoi salvarlo prima di chiudere?"
+        }
+    },
+    "messages":{
+        "error": {
+            "layout_not_found" : {
+                "title" : "File layout non trovato",
+                "message" : "File layout '{layout_name}.json' non trovato."
+            },
+            "invalid_layout" : {
+                "title" : "File layout non valido",
+                "message" : "Il file layout '{path}' non è un layout valido."
+            },
+            "unicode" : {
+                "title" : "Errore durante la decodifica del JSON",
+                "message" : "Si è verificato un errore durante la decodifica del file."
+            },
+            "invalid_file": {
+                "title" : "File non valido",
+                "message" : "Il file '{path}' non è un file 'akd'."
+            }
+        },
+        "info": {
+            "layout_imported" : {
+                "title" : "Completato",
+                "message" : "Tutto il layout è stato importato."
+            }
+        },
+        "warn" : {
+            "layout_not_found" : {
+                "title" : "Alcuni file non sono stati importati",
+                "message" : "Impossibile importare:\n {files}"
+            },
+            "int_number" : {
+                "title" : "Numero intero richiesto",
+                "message" : "La voce '{entry}' richiede un numero intero come valore."
+            }
+        }
+    }
+}
